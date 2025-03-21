@@ -1,0 +1,13 @@
+lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.5"
+      snapshot: false
+  server:
+    sources:
+      youtube: false
+      soundcloud: true
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
